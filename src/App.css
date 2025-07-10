@@ -1,8 +1,335 @@
-.nav{
-  display: flex;
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #F5F4F0;
+  margin: 0;
 }
 
-.logo{
+@font-face {
+  font-family: 'KaftanSerif';
+  src: url('/fonts/kaftan-trial.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+/*Navbar*/
+.nav {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 123px;
+  box-sizing: border-box;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
   width: 50px;
   height: 50px;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.navbar-right ul {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar-right li {
+  font-size: 16px;
+  color: #27272A;
+  cursor: pointer;
+}
+
+.botao {
+  border: 1px solid #27272A;
+  border-radius: 32px;
+  width: 116px;
+  height: 42px;
+  padding: 6px 12px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-left: 88px; 
+  gap: 10px;
+}
+
+.botao:hover {
+  background-color: #27272A;
+  color: white;
+}
+
+/*Hero*/
+.hero {
+  text-align: center;
+  justify-content: center;
+  position: relative;
+  padding: 60px 0;
+}
+
+/* Fundo azul suave atrás */
+.hero-bg {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 790px;
+  background: linear-gradient(
+    135deg,
+    #f0f8f9 10%,
+    #d3e9ee 50%,
+    #c5e3ea 80%
+  );
+  z-index: 0;
+  filter: blur(42px);
+}
+
+
+.hero-title {
+  font-family: 'KaftanSerif', serif;
+  font-size: 158px;
+  font-weight: 400;
+  line-height: 128px;
+  color: #3A3535;
+  margin-bottom: 0;
+  margin-top: 12px;
+  position: relative;
+  z-index: 1;
+}
+
+.hero-img {
+  width: 750px;
+  height: 750px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-top: 12px;
+  position: relative;
+  z-index: 1;
+}
+/*About*/
+.about{
+  display: flex;
+  justify-content: space-around;
+  margin: 180px 123px;
+}
+.about-img{
+  width: 176px;
+  height: 229;
+  object-fit: cover;
+  border-radius: 160px;
+}
+.about-right{
+  width: 582px;
+  height: 330px;
+}
+.about-title{
+  font-family: 'KaftanSerif', serif;
+  color: #27272A;
+  font-size: 48px;
+  line-height: 150%;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+.about-text{
+  font-size: 20px;
+  line-height: 34px;
+  font-weight: 100;
+  color: #27272A;
+  margin-top: 40px
+}
+.about-button{
+  width: 124px;
+  height: 42px;
+  border-radius: 32px;
+  border: #27272A 1px solid;
+  font-size: 14px;
+  background-color: #F5F4F0;
+  transition: background-color 0.3s ease;
+  margin-top: 40px
+}
+.about-button:hover {
+  background-color: #27272A;
+  color: white;
+}
+
+/*Songs*/
+.songs-header {
+  display: flex;
+  width: 100%;
+  height: 150px;
+  background-color: #CAC3BD;
+  text-align: center;
+  justify-content: center;  
+  align-items: center;   
+  text-transform: capitalize;
+  font-size: 20px;
+  font-weight: 100;
+}
+.song-card {
+  flex: 1;
+  max-width: 33.33%;
+  height: auto;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  display: flex;
+  justify-content: center;
+}
+
+.song-card:hover {
+  transform: scale(1.02);
+}
+
+.song-image {
+  width: 100%;       
+  height: auto;     
+  object-fit: cover;
+  display: block;
+}
+.songs-grid {
+  display: flex;
+  justify-content: space-between; 
+  background-color: #f8f8f8;
+  width: 100%;
+  box-sizing: border-box;
+}
+/*Eras*/
+.eras{
+  display: flex;
+  justify-content: space-around;
+  margin: 180px 123px;
+}
+
+.eras-right{
+  width: 582px;
+  height: 330px;
+}
+.eras-title{
+  font-family: 'KaftanSerif', serif;
+  color: #27272A;
+  font-size: 48px;
+  line-height: 150%;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+.eras-text{
+  font-size: 20px;
+  line-height: 34px;
+  font-weight: 100;
+  color: #27272A;
+  margin-top: 40px
+}
+.eras-button{
+  width: 124px;
+  height: 42px;
+  border-radius: 32px;
+  border: #27272A 1px solid;
+  font-size: 14px;
+  background-color: #F5F4F0;
+  margin-top: 40px;
+  transition: background-color 0.3s ease;
+}
+.eras-button:hover {
+  background-color: #27272A;
+  color: white;
+}
+/*Album*/
+.album{
+  display: flex;
+  justify-content: space-around;
+  margin: 180px 123px;
+}
+
+.album-right{
+  width: 480px;
+  height: 468px;
+}
+.album-title{
+  font-family: 'KaftanSerif', serif;
+  color: #27272A;
+  font-size: 48px;
+  line-height: 150%;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+.album-order {
+  width: 408px;
+  font-size: 20px;
+  list-style: none; /* Desativa a numeração padrão */
+  padding-left: 0;
+  margin: 0;
+  counter-reset: item; /* Inicia o contador */
+}
+
+.album-order li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0 10px 25px; /* Espaço para o número */
+  border-top: 1px solid #ccc;
+  position: relative;
+}
+
+.album-order li:first-child {
+  border-top: none;
+}
+
+/* Números personalizados */
+.album-order li::before {
+  content: counter(item) "."; /* Formato: "1." */
+  counter-increment: item; /* Incrementa o contador */
+  position: absolute;
+  left: 0;
+  font-weight: normal;
+}
+
+.setas {
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+  margin-left: 10px; /* Espaço entre texto e seta */
+}
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.album-image {
+  width: 582px;
+  height: 630px;
+  object-fit: cover;
+  animation: spin 5s linear infinite;
+  transform-origin: center center;     
+}
+.album-button{
+  width: 168px;
+  height: 42px;
+  border-radius: 32px;
+  border: #27272A 1px solid;
+  font-size: 14px;
+  background-color: #F5F4F0;
+  margin-top: 40px;
+  transition: background-color 0.3s ease;
+}
+.album-button:hover {
+  background-color: #27272A;
+  color: white;
 }
