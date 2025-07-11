@@ -23,7 +23,14 @@ function Album() {
               “Style” <img src={seta_baixo} className="setas" />
             </li>
           </ol>
-          <button className="album-button">Listen new album</button>
+          <button className="album-button">
+            <a
+              href="https://open.spotify.com/intl-pt/album/1o59UpKw81iHR0HPiSkJR0?si=3c1494278154464e"
+              target="_blank"
+            >
+              Listen new album
+            </a>{" "}
+          </button>
         </div>
         <div className="album-right">
           <img src={vinil} alt="Vinil de 1989" className="album-image" />

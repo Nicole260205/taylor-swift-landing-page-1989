@@ -13,7 +13,9 @@ function ErasTour() {
             is Swift's most expansive tour yet, with 151 shows across five
             continents.
           </p>
-          <button className="eras-button">Check dates</button>
+          <button className="eras-button">
+            <a href="https://setlisttaylorswift.netlify.app/" target="_blank">Check dates</a>
+          </button>
         </div>
       </div>
     </>
