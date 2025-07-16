@@ -26,13 +26,15 @@ Este projeto foi criado como prática de front-end e faz parte do meu portfólio
 1 - Clone o projeto:
 
 `git clone https://github.com/Nicole260205/taylor-swift-landing-page-1989.git` <br>
+
+2 - Acesse a pasta:
 `cd taylor-swift-landing-page-1989` <br>
 
-2 - Instale as dependências:
+3 - Instale as dependências:
 
 `npm install`
 
-3 - Execute localmente:
+4 - Execute localmente:
 
 `npm run dev`
 
