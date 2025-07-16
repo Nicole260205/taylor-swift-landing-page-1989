@@ -28,6 +28,7 @@ Este projeto foi criado como prática de front-end e faz parte do meu portfólio
 `git clone https://github.com/Nicole260205/taylor-swift-landing-page-1989.git` <br>
 
 2 - Acesse a pasta:
+
 `cd taylor-swift-landing-page-1989` <br>
 
 3 - Instale as dependências:
