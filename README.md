@@ -1,12 +1,42 @@
-# React + Vite
+# Landing Page – 1989 (Taylor's Version)
+ 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Uma landing page desenvolvida com React para homenagear o álbum **1989 (Taylor’s Version)** da Taylor Swift.  
+Este projeto foi criado como prática de front-end e faz parte do meu portfólio pessoal. 
 
-Currently, two official plugins are available:
+## Preview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![preview do site](./preview.png)
 
-## Expanding the ESLint configuration
+## Funcionalidades
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Design responsivo com CSS customizado
+- Conteúdo visual inspirado na era 1989 (Taylor’s Version)
+- Estética personalizada com cores, fontes e imagens do álbum
+
+## Tecnologias utilizadas
+
+- [React.js](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- HTML5 + CSS3 (customizados, sem frameworks)
+- JavaScript (ES6+)
+
+## Instalação
+
+1 - Clone o projeto:
+
+`git clone https://github.com/Nicole260205/taylor-swift-landing-page-1989.git` <br>
+`cd taylor-swift-landing-page-1989` <br>
+
+2 - Instale as dependências:
+
+`npm install`
+
+3 - Execute localmente:
+
+`npm run dev`
+
+Acesse: http://localhost:5173
+
+## Autora
+Feito por @Nicole260205
